@@ -1,0 +1,33 @@
+{
+  "name": "nvan/cli-plus",
+  "homepage": "https://github.com/nvan/cli-plus",
+  "readme": "https://github.com/nvan/cli-plus/blob/master/README.md",
+  "type": "project",
+  "description": "CLI Plus is a PHP little library to add colors and effects to CLI apps",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "nvan\\CliPlus\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Martín Durán",
+      "email": "mduran@nvan.es",
+      "homepage": "https://www.maduranma.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/nvan/cli-plus",
+    "issues": "https://github.com/nvan/cli-plus/issues"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/maduranma"
+    }
+  ],
+  "license": "MIT"
+}
